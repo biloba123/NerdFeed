@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADF0E04214E340000D91B74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF0E03214E340000D91B74 /* AppDelegate.m */; };
+		FADF0E07214E340000D91B74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF0E06214E340000D91B74 /* ViewController.m */; };
+		FADF0E0A214E340000D91B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF0E08214E340000D91B74 /* Main.storyboard */; };
+		FADF0E0C214E340300D91B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADF0E0B214E340300D91B74 /* Assets.xcassets */; };
+		FADF0E0F214E340300D91B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF0E0D214E340300D91B74 /* LaunchScreen.storyboard */; };
+		FADF0E12214E340300D91B74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF0E11214E340300D91B74 /* main.m */; };
+		FADF0E1C214E340300D91B74 /* NerdFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF0E1B214E340300D91B74 /* NerdFeedTests.m */; };
+		FADF0E27214E340300D91B74 /* NerdFeedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF0E26214E340300D91B74 /* NerdFeedUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADF0E18214E340300D91B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADF0DF7214E340000D91B74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADF0DFE214E340000D91B74;
+			remoteInfo = NerdFeed;
+		};
+		FADF0E23214E340300D91B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADF0DF7214E340000D91B74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADF0DFE214E340000D91B74;
+			remoteInfo = NerdFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADF0DFF214E340000D91B74 /* NerdFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NerdFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADF0E02214E340000D91B74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FADF0E03214E340000D91B74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FADF0E05214E340000D91B74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FADF0E06214E340000D91B74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FADF0E09214E340000D91B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADF0E0B214E340300D91B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADF0E0E214E340300D91B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADF0E10214E340300D91B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADF0E11214E340300D91B74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FADF0E17214E340300D91B74 /* NerdFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NerdFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADF0E1B214E340300D91B74 /* NerdFeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdFeedTests.m; sourceTree = "<group>"; };
+		FADF0E1D214E340300D91B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADF0E22214E340300D91B74 /* NerdFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NerdFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADF0E26214E340300D91B74 /* NerdFeedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdFeedUITests.m; sourceTree = "<group>"; };
+		FADF0E28214E340300D91B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADF0DFC214E340000D91B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADF0E14214E340300D91B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADF0E1F214E340300D91B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADF0DF6214E340000D91B74 = {
+			isa = PBXGroup;
+			children = (
+				FADF0E01214E340000D91B74 /* NerdFeed */,
+				FADF0E1A214E340300D91B74 /* NerdFeedTests */,
+				FADF0E25214E340300D91B74 /* NerdFeedUITests */,
+				FADF0E00214E340000D91B74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADF0E00214E340000D91B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADF0DFF214E340000D91B74 /* NerdFeed.app */,
+				FADF0E17214E340300D91B74 /* NerdFeedTests.xctest */,
+				FADF0E22214E340300D91B74 /* NerdFeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADF0E01214E340000D91B74 /* NerdFeed */ = {
+			isa = PBXGroup;
+			children = (
+				FADF0E02214E340000D91B74 /* AppDelegate.h */,
+				FADF0E03214E340000D91B74 /* AppDelegate.m */,
+				FADF0E05214E340000D91B74 /* ViewController.h */,
+				FADF0E06214E340000D91B74 /* ViewController.m */,
+				FADF0E08214E340000D91B74 /* Main.storyboard */,
+				FADF0E0B214E340300D91B74 /* Assets.xcassets */,
+				FADF0E0D214E340300D91B74 /* LaunchScreen.storyboard */,
+				FADF0E10214E340300D91B74 /* Info.plist */,
+				FADF0E11214E340300D91B74 /* main.m */,
+			);
+			path = NerdFeed;
+			sourceTree = "<group>";
+		};
+		FADF0E1A214E340300D91B74 /* NerdFeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADF0E1B214E340300D91B74 /* NerdFeedTests.m */,
+				FADF0E1D214E340300D91B74 /* Info.plist */,
+			);
+			path = NerdFeedTests;
+			sourceTree = "<group>";
+		};
+		FADF0E25214E340300D91B74 /* NerdFeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADF0E26214E340300D91B74 /* NerdFeedUITests.m */,
+				FADF0E28214E340300D91B74 /* Info.plist */,
+			);
+			path = NerdFeedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADF0DFE214E340000D91B74 /* NerdFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADF0E2B214E340300D91B74 /* Build configuration list for PBXNativeTarget "NerdFeed" */;
+			buildPhases = (
+				FADF0DFB214E340000D91B74 /* Sources */,
+				FADF0DFC214E340000D91B74 /* Frameworks */,
+				FADF0DFD214E340000D91B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NerdFeed;
+			productName = NerdFeed;
+			productReference = FADF0DFF214E340000D91B74 /* NerdFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADF0E16214E340300D91B74 /* NerdFeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADF0E2E214E340300D91B74 /* Build configuration list for PBXNativeTarget "NerdFeedTests" */;
+			buildPhases = (
+				FADF0E13214E340300D91B74 /* Sources */,
+				FADF0E14214E340300D91B74 /* Frameworks */,
+				FADF0E15214E340300D91B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADF0E19214E340300D91B74 /* PBXTargetDependency */,
+			);
+			name = NerdFeedTests;
+			productName = NerdFeedTests;
+			productReference = FADF0E17214E340300D91B74 /* NerdFeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FADF0E21214E340300D91B74 /* NerdFeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADF0E31214E340300D91B74 /* Build configuration list for PBXNativeTarget "NerdFeedUITests" */;
+			buildPhases = (
+				FADF0E1E214E340300D91B74 /* Sources */,
+				FADF0E1F214E340300D91B74 /* Frameworks */,
+				FADF0E20214E340300D91B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADF0E24214E340300D91B74 /* PBXTargetDependency */,
+			);
+			name = NerdFeedUITests;
+			productName = NerdFeedUITests;
+			productReference = FADF0E22214E340300D91B74 /* NerdFeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADF0DF7214E340000D91B74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Lv Qingyang";
+				TargetAttributes = {
+					FADF0DFE214E340000D91B74 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FADF0E16214E340300D91B74 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FADF0DFE214E340000D91B74;
+					};
+					FADF0E21214E340300D91B74 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FADF0DFE214E340000D91B74;
+					};
+				};
+			};
+			buildConfigurationList = FADF0DFA214E340000D91B74 /* Build configuration list for PBXProject "NerdFeed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADF0DF6214E340000D91B74;
+			productRefGroup = FADF0E00214E340000D91B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADF0DFE214E340000D91B74 /* NerdFeed */,
+				FADF0E16214E340300D91B74 /* NerdFeedTests */,
+				FADF0E21214E340300D91B74 /* NerdFeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADF0DFD214E340000D91B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADF0E0F214E340300D91B74 /* LaunchScreen.storyboard in Resources */,
+				FADF0E0C214E340300D91B74 /* Assets.xcassets in Resources */,
+				FADF0E0A214E340000D91B74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADF0E15214E340300D91B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADF0E20214E340300D91B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADF0DFB214E340000D91B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADF0E07214E340000D91B74 /* ViewController.m in Sources */,
+				FADF0E12214E340300D91B74 /* main.m in Sources */,
+				FADF0E04214E340000D91B74 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADF0E13214E340300D91B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADF0E1C214E340300D91B74 /* NerdFeedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADF0E1E214E340300D91B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADF0E27214E340300D91B74 /* NerdFeedUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADF0E19214E340300D91B74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADF0DFE214E340000D91B74 /* NerdFeed */;
+			targetProxy = FADF0E18214E340300D91B74 /* PBXContainerItemProxy */;
+		};
+		FADF0E24214E340300D91B74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADF0DFE214E340000D91B74 /* NerdFeed */;
+			targetProxy = FADF0E23214E340300D91B74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADF0E08214E340000D91B74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADF0E09214E340000D91B74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADF0E0D214E340300D91B74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADF0E0E214E340300D91B74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADF0E29214E340300D91B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FADF0E2A214E340300D91B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADF0E2C214E340300D91B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NerdFeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqy.NerdFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADF0E2D214E340300D91B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NerdFeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqy.NerdFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FADF0E2F214E340300D91B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NerdFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqy.NerdFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NerdFeed.app/NerdFeed";
+			};
+			name = Debug;
+		};
+		FADF0E30214E340300D91B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NerdFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqy.NerdFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NerdFeed.app/NerdFeed";
+			};
+			name = Release;
+		};
+		FADF0E32214E340300D91B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NerdFeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqy.NerdFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NerdFeed;
+			};
+			name = Debug;
+		};
+		FADF0E33214E340300D91B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NerdFeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqy.NerdFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NerdFeed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADF0DFA214E340000D91B74 /* Build configuration list for PBXProject "NerdFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADF0E29214E340300D91B74 /* Debug */,
+				FADF0E2A214E340300D91B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADF0E2B214E340300D91B74 /* Build configuration list for PBXNativeTarget "NerdFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADF0E2C214E340300D91B74 /* Debug */,
+				FADF0E2D214E340300D91B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADF0E2E214E340300D91B74 /* Build configuration list for PBXNativeTarget "NerdFeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADF0E2F214E340300D91B74 /* Debug */,
+				FADF0E30214E340300D91B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADF0E31214E340300D91B74 /* Build configuration list for PBXNativeTarget "NerdFeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADF0E32214E340300D91B74 /* Debug */,
+				FADF0E33214E340300D91B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADF0DF7214E340000D91B74 /* Project object */;
+}
