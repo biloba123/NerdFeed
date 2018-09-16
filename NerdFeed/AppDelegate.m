@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "NFCoursesViewController.h"
+#import "NFWebViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
+    NFCoursesViewController *coursesViewController = [[NFCoursesViewController alloc] initWithStyle:UITableViewStylePlain];
+    NFWebViewController *webViewController=[NFWebViewController new];
+    webViewController.goBackEnable=YES;
+    coursesViewController.webViewController=webViewController;
+    UINavigationController *navigationController= [[UINavigationController alloc] initWithRootViewController:coursesViewController];
+
+    self.window.rootViewController=navigationController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4F305091680044830B37C9C /* NFCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F30E284FDE7171BB27E1F5 /* NFCoursesViewController.m */; };
+		B4F3073421BC93AED4004222 /* NFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F30DE6CD1597B8BF9F8A5E /* NFWebViewController.m */; };
+		FA56A99C214E6C9B008071F4 /* NFWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA56A99B214E6C9B008071F4 /* NFWebViewController.xib */; };
 		FADF0E04214E340000D91B74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF0E03214E340000D91B74 /* AppDelegate.m */; };
-		FADF0E07214E340000D91B74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF0E06214E340000D91B74 /* ViewController.m */; };
-		FADF0E0A214E340000D91B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF0E08214E340000D91B74 /* Main.storyboard */; };
 		FADF0E0C214E340300D91B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADF0E0B214E340300D91B74 /* Assets.xcassets */; };
 		FADF0E0F214E340300D91B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF0E0D214E340300D91B74 /* LaunchScreen.storyboard */; };
 		FADF0E12214E340300D91B74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF0E11214E340300D91B74 /* main.m */; };
@@ -35,12 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4F3011D577AD90F2F239C6D /* NFCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCoursesViewController.h; sourceTree = "<group>"; };
+		B4F305E94AF63DC0D0604E1E /* NFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFWebViewController.h; sourceTree = "<group>"; };
+		B4F30DE6CD1597B8BF9F8A5E /* NFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFWebViewController.m; sourceTree = "<group>"; };
+		B4F30E284FDE7171BB27E1F5 /* NFCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFCoursesViewController.m; sourceTree = "<group>"; };
+		FA56A99B214E6C9B008071F4 /* NFWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NFWebViewController.xib; sourceTree = "<group>"; };
 		FADF0DFF214E340000D91B74 /* NerdFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NerdFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADF0E02214E340000D91B74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FADF0E03214E340000D91B74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FADF0E05214E340000D91B74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FADF0E06214E340000D91B74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FADF0E09214E340000D91B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FADF0E0B214E340300D91B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADF0E0E214E340300D91B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FADF0E10214E340300D91B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,13 +106,15 @@
 			children = (
 				FADF0E02214E340000D91B74 /* AppDelegate.h */,
 				FADF0E03214E340000D91B74 /* AppDelegate.m */,
-				FADF0E05214E340000D91B74 /* ViewController.h */,
-				FADF0E06214E340000D91B74 /* ViewController.m */,
-				FADF0E08214E340000D91B74 /* Main.storyboard */,
 				FADF0E0B214E340300D91B74 /* Assets.xcassets */,
 				FADF0E0D214E340300D91B74 /* LaunchScreen.storyboard */,
 				FADF0E10214E340300D91B74 /* Info.plist */,
 				FADF0E11214E340300D91B74 /* main.m */,
+				B4F30E284FDE7171BB27E1F5 /* NFCoursesViewController.m */,
+				B4F3011D577AD90F2F239C6D /* NFCoursesViewController.h */,
+				B4F30DE6CD1597B8BF9F8A5E /* NFWebViewController.m */,
+				B4F305E94AF63DC0D0604E1E /* NFWebViewController.h */,
+				FA56A99B214E6C9B008071F4 /* NFWebViewController.xib */,
 			);
 			path = NerdFeed;
 			sourceTree = "<group>";
@@ -236,8 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADF0E0F214E340300D91B74 /* LaunchScreen.storyboard in Resources */,
+				FA56A99C214E6C9B008071F4 /* NFWebViewController.xib in Resources */,
 				FADF0E0C214E340300D91B74 /* Assets.xcassets in Resources */,
-				FADF0E0A214E340000D91B74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADF0E07214E340000D91B74 /* ViewController.m in Sources */,
 				FADF0E12214E340300D91B74 /* main.m in Sources */,
 				FADF0E04214E340000D91B74 /* AppDelegate.m in Sources */,
+				B4F305091680044830B37C9C /* NFCoursesViewController.m in Sources */,
+				B4F3073421BC93AED4004222 /* NFWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +306,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FADF0E08214E340000D91B74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FADF0E09214E340000D91B74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FADF0E0D214E340300D91B74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
